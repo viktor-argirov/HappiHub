@@ -1,0 +1,64 @@
+img {
+    width: 15%;
+    border-radius: 2px;
+}
+
+.header {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+}
+
+.nav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    padding: 0; /* Remove padding from li to let buttons handle padding */
+    margin: 0;
+}
+
+.nav-btn {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block; /* Make sure buttons are inline-block */
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
